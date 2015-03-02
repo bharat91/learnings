@@ -5,15 +5,15 @@
 
 int removeDuplicates(char* str)
     {
-    int i,j,cnt=0;
+    int i,j,count=0;
     
     for(i=0;i<strlen(str);i++)
         {
         if(str[i]==str[i+1])
-            cnt++;
+            count++;
     }
     
-    return cnt;
+    return count;
 }
 
 
